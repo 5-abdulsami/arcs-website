@@ -519,7 +519,7 @@ img {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    padding: 10rem 0 6rem 0;
+    padding: 8rem 0 5rem 0;
     color: var(--text-white);
     background-size: cover;
     background-position: center;
@@ -604,6 +604,7 @@ img {
     display: flex;
     justify-content: flex-end;
     width: 100%;
+    align-self: flex;
 }
 
 /* Compact Admission Status Badge */
@@ -622,6 +623,7 @@ img {
     text-align: left;
     position: relative;
     overflow: hidden;
+    margin-top: -1.5rem;
 }
 
 .admission-status-badge:hover {
